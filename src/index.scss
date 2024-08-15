@@ -9,10 +9,12 @@ div#app {
   justify-content: center;
   align-items: center;
 
-  width: 100%;
+  width: calc(100% - 2em);
   height: 100vh;
 
   background-color: #f5f5f5;
+
+  padding: 0 1em;
 
   main.main {
     display: flex;
