@@ -6,6 +6,7 @@ body {
 
 div#app {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -15,6 +16,14 @@ div#app {
   background-color: #f5f5f5;
 
   padding: 0 1em;
+
+  header {
+    margin-bottom: 4em;
+
+    h1 {
+      font-size: 26px;
+    }
+  }
 
   main.main {
     display: flex;

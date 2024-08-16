@@ -55,6 +55,9 @@ function App() {
   };
   return (
     <div id='app'>
+      <header>
+        <h1>Drag And Drop with React</h1>
+      </header>
       <main className='main'>
         <section className='on__progress'>
           <h2>On progress</h2>
